@@ -43,6 +43,9 @@ body{
   position: absolute;
   left: 55px;
   top: 85px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  transform: scale(1);
 }
 
 .showcase{
@@ -51,6 +54,9 @@ body{
   background-color: #f0523f;
   position: absolute;
   left: 250px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  transform: scale(1);
 }
 
 .blogs{
@@ -60,13 +66,50 @@ body{
   position: absolute;
   left: 150px;
   top: 260px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  transform: scale(1);
 }
 
-.pf17{
+.inflate{
+  width: 90vw;
+  height: 90vh;
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+}
+
+.side-types{
   color: #aeadae;
   font-size: 13px;
   position: absolute;
   left: 50px;
+}
+
+.top-nav{
+  list-style-type: none;
+  position: absolute;
+  right: 50px;
+  margin:0;
+}
+
+.top-nav li{
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px 20px 0px 20px;
+}
+
+.top-nav li a{
+  text-decoration: none;
+  transition: 0.4s ease all;
+  color: #aeadae;
+  font-size: 13px;
+}
+
+.top-nav li a:hover{
+  text-decoration: none;
+  color: #848484;
 }
 
 /* helper classes */

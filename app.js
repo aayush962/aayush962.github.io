@@ -1,18 +1,9 @@
-// animations
-
-// function swingBoxUp(className){
-//   $('.'+className).animate({
-//     top: "+=5"
-//   }, 1000, "swing")
-// }
-//
+//animations
+// 
 // $(document).ready(function(){
-//   setInterval(swingBoxUp('identity'), 1000)
-//
-//   setInterval(function(){
-//     $('.identity').animate({
-//       top: "-=5"
-//     }, 1000, "swing")
-//   }, 1000)
-//
+//   $('.identity').click(function(){
+//     $(this).toggleClass('inflate');
+//     $('.blogs, .showcase').toggle();
+//     $('.aa').toggle(500);
+//   })
 // })
