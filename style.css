@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'InterfaceRegular';
+  src: url('fonts/Interface.woff') format('woff') /* Pretty Modern Browsers */
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  max-width: 90vw;
+  max-height: 90vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+
+.left-container{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.right-container{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.intro{
+  margin: 20vh 10vw 0px 0px;
+  line-height: 25px;
+}
+
+.colorful-boxes{
+  margin: 20vh 0vw 10vw 0px;
+  position: relative;
+}
+
+.identity{
+  width: 130px;
+  height: 130px;
+  background-color: #42b75e;
+  position: absolute;
+  left: 55px;
+  top: 85px;
+}
+
+.showcase{
+  width: 200px;
+  height: 200px;
+  background-color: #f0523f;
+  position: absolute;
+  left: 250px;
+}
+
+.blogs{
+  width: 140px;
+  height: 140px;
+  background-color: #fcb615;
+  position: absolute;
+  left: 150px;
+  top: 260px;
+}
+
+.pf17{
+  color: #aeadae;
+  font-size: 13px;
+  position: absolute;
+  left: 50px;
+}
+
+/* helper classes */
+
+.dark-blue{
+  color: #21305d;
+}
+
+.white{
+  color: #fff;
+}
+
+.shadow{
+  -webkit-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.25);
+  box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.25);
+}
+
+.interface{
+  font-family: 'InterfaceRegular', sans-serif;
+}
+
+/* elements */
+.spotlight{
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  width: 75%;
+}
+
+.aa{
+  position: absolute;
+  right: 0px;
+  width: 70%;
+  top: 45px;
+}
+
+.project-showcase{
+  font-weight: 400;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+/* three small boxes */
+
+.green{
+  width: 40px;
+  height: 40px;
+  background-color: #42b75e;
+  position: absolute;
+  left: 330px;
+  top: 240px;
+}
+
+.red{
+  width: 40px;
+  height: 40px;
+  background-color: #f0523f;
+  position: absolute;
+  left: 65px;
+  top: 280px;
+}
+
+.yellow{
+  width: 40px;
+  height: 40px;
+  background-color: #fcb615;
+  position: absolute;
+  left: 170px;
+}
